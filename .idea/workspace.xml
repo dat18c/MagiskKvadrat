@@ -18,8 +18,6 @@
       <change beforePath="$PROJECT_DIR$/../Godmorgen/Godmorgen.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hundekennel" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../LittleAnimalHorrorZoo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kea/ooprecapinterfaces/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kea/ooprecapinterfaces/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOP_Recap_Interfaces/src/com/kea/ooprecapinterfaces/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP_Recap_Interfaces/src/com/kea/ooprecapinterfaces/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOP_Recap_Interfaces/src/com/kea/ooprecapinterfaces/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP_Recap_Interfaces/src/com/kea/ooprecapinterfaces/Person.java" afterDir="false" />
@@ -36,10 +34,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kea/ooprecapinterfaces/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="84">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#292#301#0" expanded="true" />
+                <element signature="e#478#487#0" expanded="true" />
+                <element signature="e#1542#1551#0" expanded="true" />
+                <element signature="e#1762#1771#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,7 +84,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568213969931" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568217816809" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -123,15 +125,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568212138346</updated>
-      <workItem from="1568212141463" duration="1742000" />
+      <workItem from="1568212141463" duration="5510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1742000" />
+    <option name="totallyTimeSpent" value="5510000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="804" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="801" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -141,15 +143,15 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.3286517" />
+      <window_info anchor="bottom" id="Messages" weight="0.32863188" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286517" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32863188" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40056416" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -173,10 +175,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/kea/ooprecapinterfaces/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="84">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#292#301#0" expanded="true" />
+            <element signature="e#478#487#0" expanded="true" />
+            <element signature="e#1542#1551#0" expanded="true" />
+            <element signature="e#1762#1771#0" expanded="true" />
           </folding>
         </state>
       </provider>
