@@ -1,8 +1,19 @@
 package com.kea.ooprecapinterfaces;
-
-import javax.swing.*;
 import java.util.ArrayList;
 
+/*
+kvadrat skal give 15 i kolonner, rækker og på skrå
+tallene 1 - 9 placeres i felterne
+
+Felternes index i arraylisten
++-+-+-+
+|0|1|2|
++-+-+-+
+|3|4|5|
++-+-+-+
+|6|7|8|
++-+-+-+
+*/
 
 public class Main {
 
@@ -47,12 +58,9 @@ public class Main {
         {
             //prøv alle muligheder for tal i restliste en ad gangen
             for (int i = 0; i < restList.size(); i++) {
-                //byggeliste kopieres til ny byggeliste
+                //ny byggeliste
                 ArrayList<Integer> nyByggeList = new ArrayList<Integer>();
-                for (int j=0; j< byggeList.size();j++)
-                {
-                    nyByggeList.add(byggeList.get(j));
-                }
+
                 //nyRestlist til tal, der ikke bliver brugt
                 ArrayList<Integer> nyRestList = new ArrayList<Integer>();
                 for (int j = 0; j < restList.size(); j++) {
@@ -74,7 +82,7 @@ public class Main {
     {
         //check om en af summerne vandret, lodret eller diagonalt ikke er korrekt
         boolean magic = true;
-        if (liste.get(0) + liste.get(4) + liste.get(8) != 15) magic = false;
+        if (liste.get(0) + liste.get(4) + liste.get(9) != 15) magic = false;
         if (liste.get(2) + liste.get(4) + liste.get(6) != 15) magic = false;
         if (liste.get(0) + liste.get(1) + liste.get(2) != 15) magic = false;
         if (liste.get(3) + liste.get(4) + liste.get(5) != 15) magic = false;
