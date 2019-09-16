@@ -58,9 +58,12 @@ public class Main {
         {
             //prøv alle muligheder for tal i restliste en ad gangen
             for (int i = 0; i < restList.size(); i++) {
-                //ny byggeliste
+                //ny byggeliste skal tilføjes alle elementer fra byggeliste -- ret
                 ArrayList<Integer> nyByggeList = new ArrayList<Integer>();
-
+                for (int j=0;j<byggeList.size();j++)
+                {
+                    nyByggeList.add(byggeList.get(j));
+                }
                 //nyRestlist til tal, der ikke bliver brugt
                 ArrayList<Integer> nyRestList = new ArrayList<Integer>();
                 for (int j = 0; j < restList.size(); j++) {
@@ -82,7 +85,7 @@ public class Main {
     {
         //check om en af summerne vandret, lodret eller diagonalt ikke er korrekt
         boolean magic = true;
-        if (liste.get(0) + liste.get(4) + liste.get(9) != 15) magic = false;
+        if (liste.get(0) + liste.get(4) + liste.get(8) != 15) magic = false; // --ret
         if (liste.get(2) + liste.get(4) + liste.get(6) != 15) magic = false;
         if (liste.get(0) + liste.get(1) + liste.get(2) != 15) magic = false;
         if (liste.get(3) + liste.get(4) + liste.get(5) != 15) magic = false;
